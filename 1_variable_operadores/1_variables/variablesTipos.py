@@ -1,0 +1,5 @@
+nombre          = "Stiven"       #str (cadena de texto)
+nombre_completo = "Stiven Arias" #string (cadena de texto)
+edad            = 16             #int (entero)
+estatura        = 1.75           #float (decimal)
+alto            = True           #bool (booleano)
