@@ -1,10 +1,11 @@
 # bucle for
 # Va a ejecutar un bloque de codigo siempre que un elemento iterable lo permita
 
+# Lista
 animales = ["perro", "gato", "leon", "tigre", "loro", "pez"]
 
-for peluche in animales:
-  print(peluche)
+for animal in animales:
+  print(animal)
   
 
 for i in range(10):
@@ -49,6 +50,19 @@ for clave in frutas:
 print("\nIterar diccionarios con .items()")
 for clave, valor in frutas.items():
   print(f"{clave}: {valor}")
+  
+
+dic = {}
+
+clave = "Stiven"
+valor = "123"
+
+# clave: valor
+dic[clave] = valor
+
+dic = {
+  "Stiven": "123"
+}
 
 
 

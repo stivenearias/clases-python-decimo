@@ -24,8 +24,8 @@ print("\nFuncion con paramtros")
 def saludar_a(nombre):
   print(f"Hola, {nombre}")
   
-
-saludar_a("Salomes")
+nombre = "Salomes"
+saludar_a(nombre)
 
 saludar_a("Stiven")
 saludar_a("Julian")

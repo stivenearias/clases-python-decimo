@@ -13,7 +13,8 @@ match numero:
   case _:
     print("Numero desconocido")
 
-dia = 123
+dia = "Lunes"
+dia.lower()
 
 match dia:
   case "lunes":
